@@ -22,7 +22,7 @@ let package = Package(
 				dependencies: [
 					"GXCoreModule_Common_GeoLocation",
 					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.watchOS])),
-					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .tvOS, .watchOS])),
+					.product(name: "GXCoreUI", package: "GXCoreUI", condition: .when(platforms: [.iOS, .watchOS, .tvOS])),
 					.product(name: "GXDataLayer", package: "GXDataLayer", condition: .when(platforms: [.watchOS])),
 					.product(name: "GXFoundation", package: "GXFoundation", condition: .when(platforms: [.watchOS])),
 					.product(name: "GXObjectsModel", package: "GXObjectsModel", condition: .when(platforms: [.watchOS])),
@@ -31,8 +31,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_GeoLocation",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_GeoLocation-1.0.0-beta+20230217024255.xcframework.zip",
-			checksum: "6e181d199efaade2db53f70f3b16ada3aee1b072d83854f3f478e0079925cdc3"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_GeoLocation-1.0.0-beta+20230217195542.xcframework.zip",
+			checksum: "754e4f51ae459b5269f433f5493a5e7bf80ccd8fb0b80e7dff7b4e74cff4554a"
 		)
 	]
 )
