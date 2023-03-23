@@ -31,8 +31,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_Common_GeoLocation",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_GeoLocation-1.0.0-beta+20230321182636.xcframework.zip",
-			checksum: "a33d9b3e73fcdfc41bc76390cc04e0213d83dbd68695910f33daca03c00f8fe3"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_Common_GeoLocation-1.0.0-beta+20230323104412.xcframework.zip",
+			checksum: "6b8294a4ed022095e0d0c116b161cd38040e08417ddc3a32474791137835ee74"
 		)
 	]
 )
